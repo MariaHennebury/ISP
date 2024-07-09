@@ -1,0 +1,75 @@
+Variable Number,Variable Name,Description
+v1,Geography,
+v2,Geography Type,
+v3,Geography Note,
+v4,Year Grouping ,"1995 = 1995-1999
+2000 = 2000-2002
+2003 = 2003-2005
+2006 = 2006-2008
+2009 = 2009-2011
+2012 = 2012-2013
+2014 = 2014-2015
+2016 = 2016-2017
+2018 = 2018-2019"
+v5,Gender,"_f = Female
+_m = Male
+_t = Total"
+v6,Hospital morbidity,"Hospital morbidity is the number of separations from hospitals including discharges, transfers and deaths. Separations are based on the most responsible diagnosis which causes a patient to stay in hospital."
+v7,Diseases of the circulatory system,
+v8,Heart disease,
+v9,Diseases of the digestive system,
+v10,Diseases of intestine and peritoneum,
+v11,Diseases of gallbladder,
+v12,"Diseases of esophagus, stomach and duodenum",
+v13,Ulcer,
+v14,Diseases of the respiratory system,
+v15,"Chronic obstructions, pulmonary diseases, etc",
+v16,Pneumonia,
+v17,Asthma,
+v18,Diseases of the upper respiratory tract,
+v19,Chronic diseases of tonsils and adenoids,
+v20,Acute upper respiratory infections,
+v21,Diseases of the genitourinary system,
+v22,Diseases of female genital organs,
+v23,Diseases of the urinary system,
+v24,Diseases of male genital organs,
+v25,Injury and poisoning,
+v26,Fractures,
+v27,Neoplasms (cancer),
+v28,Malignant neoplasms,
+v29,Age Group: Less than 20,
+v30,Age Group: 0-4,
+v31,Age Group: 5-9,
+v32,Age Group: 10-14,
+v33,Age Group: 15-19,
+v34,Age Group: 20 to 34,
+v35,Age Group: 20-24,
+v36,Age Group: 25-29,
+v37,Age Group: 30-34,
+v38,Age Group: 35 to 54,
+v39,Age Group: 35-39,
+v40,Age Group: 40-44,
+v41,Age Group: 45-49,
+v42,Age Group: 50-54,
+v43,Age Group: 55+,
+v44,Age Group: 55-59,
+v45,Age Group: 60-64,
+v46,Age Group: 65+,
+v47,Age Group: 65-74,
+v48,Age Group: 75-84,
+v49,Age Group: 85+,
+v50,Age Group: 60+,
+v51,Other diagnoses,
+v52,Other diagnoses: Age less than 20,
+v53,Other diagnoses: Age 20-39,
+v54,Other diagnoses: Age 40-59,
+v55,Other diagnoses: Age 60+,
+v56,Median age,
+v57,Days in hospital (average),Average days in hospital includes only hospital stays that were one year or less.
+,,
+Notes:,"Please note, the numbers do not reflect individual cases, as one person with multiple stays for the same condition will be counted multiple times. Figures exclude medical day care and surgical day care cases. It was not until 1995 that it became a provincial mandate to remove ""Surgical Day Care"" cases. Prior to that, not all hospitals with a ""Surgical Day Care"" programme were removing these cases. As of 1995 only two facilities were removing ""Medical Day Care"" cases, namely Dr. G. B. Cross Memorial and Burin Peninsula Health Care Centre. There was no provincial mandate regarding the removal of ""Medical Day Care"" cases.",
+,"The selected diagnoses do not list all disease classifications included in the total hospital morbidity. For this reason, figures do not add to totals. Please note, the diagnoses for 1995 to March 2001 are based on the ICD-9 Codes and the diagnoses from April 2001 onward are based on the ICD-10 Codes. For a complete list of the International Classification of Diseases Codes, Click here for ICD-9 Codes and Click here for ICD-10 Codes. Healthy liveborn infants were not included in the supplementary classifications category for 1995-1999.",
+, Average days in hospital includes only hospital stays that were one year or less.,
+,"All data are based on calendar years. Use caution when comparing values over time, as some of the year ranges are of different lengths.",
+,,
+Source:,"Compiled by the Community Accounts Unit based on information from the Newfoundland and Labrador Centre for Health Information, Clinical Database Management System. ",
