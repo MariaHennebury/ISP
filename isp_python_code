@@ -96,40 +96,63 @@ print(f"Duplicate columns found: {duplicates}")
 morbidity_df = morbidity_df.loc[:, ~morbidity_df.columns.duplicated()]
 
 
-# Features to include in testing
 features = [
-    'Diseases of the circulatory system',
-    'Heart disease',
-    'Diseases of the upper respiratory tract',
-    'Diseases of the respiratory system',
-    'Diseases of gallbladder',
-    'Diseases of the genitourinary system',
-    'Diseases of the urinary system',
-    'Diseases of intestine and peritoneum',
-    'Diseases of esophagus, stomach and duodenum',
-    'Diseases of female genital organs',
-    'Other diagnoses',
-    'Asthma',
-    'Chronic obstructions, pulmonary diseases, etc',
-    'Chronic diseases of tonsils and adenoids',
-    'Acute upper respiratory infections',
-    'Diseases of male genital organs',
-    'Neoplasms (cancer)',
-    'Malignant neoplasms',
-    'Pneumonia',
-    'Fractures',
+    # Age Groups
     'Age Group: 0-4',
     'Age Group: 5-9',
-    'Age Group: 10-14',
     'Age Group: 15-19',
     'Age Group: 20 to 34',
+    'Age Group: 20-24',
+    'Age Group: 25-29',
+    'Age Group: 30-34',
     'Age Group: 35 to 54',
+    'Age Group: 35-39',
+    'Age Group: 40-44',
+    'Age Group: 45-49',
+    'Age Group: 50-54',
     'Age Group: 55-59',
     'Age Group: 60-64',
     'Age Group: 65-74',
     'Age Group: 75-84',
     'Age Group: 85+',
+    'Age Group: 60+',
+
+    # Respiratory Diseases
+    'Acute upper respiratory infections',
+    'Diseases of the respiratory system',
+    'Chronic obstructions, pulmonary diseases, etc',
+    'Pneumonia',
+    'Diseases of the upper respiratory tract',
+    'Asthma',
+
+    # Digestive System Diseases
+    'Diseases of the digestive system',
+    'Diseases of intestine and peritoneum',
+    'Diseases of gallbladder',
+    'Diseases of esophagus, stomach and duodenum',
     'Ulcer',
+
+    # Circulatory System Diseases
+    'Diseases of the circulatory system',
+    'Heart disease',
+
+    # Genitourinary System Diseases
+    'Diseases of the genitourinary system',
+    'Diseases of female genital organs',
+    'Diseases of the urinary system',
+    'Diseases of male genital organs',
+
+    # Neoplasms
+    'Neoplasms (cancer)',
+    'Malignant neoplasms',
+
+    # Injury and Poisoning
+    'Injury and poisoning',
+    'Fractures',
+
+    # Other
+    'Chronic diseases of tonsils and adenoids',
+    'Other diagnoses',
     'Other diagnoses: Age less than 20',
     'Other diagnoses: Age 20-39',
     'Other diagnoses: Age 40-59',
